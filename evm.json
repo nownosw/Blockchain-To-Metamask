@@ -3,7 +3,7 @@
   "chain": "ETH",
   "network": "mainnet",
   "icon": "ethereum",
-  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com"],
+  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "https://rpc.tenderly.co/fork/54f8b961-62a7-4515-a125-16113e05afa0",  "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -73,7 +73,7 @@
   "chainId": 4,
   "networkId": 4,
   "ens": {
-    "registry": "0xe7410170f87102df0055eb195163a03b7f2bff4a"
+    "registry": "0xe7410170f87102DF0055eB195163A03B7F2Bff4A"
   },
   "explorers": [{
     "name": "etherscan-rinkeby",
@@ -81,7 +81,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Ethereum Testnet Görli",
+  "name": "Ethereum Testnet Goerli",
   "chain": "ETH",
   "network": "goerli",
   "rpc": ["https://rpc.goerli.mudit.blog/", "https://rpc.slock.it/goerli ", "https://goerli.prylabs.net/"],
@@ -606,7 +606,7 @@
   "name": "Binance Smart Chain Mainnet",
   "chain": "BSC",
   "network": "mainnet",
-  "rpc": ["https://bsc-dataseed1.binance.org", "https://bsc-dataseed2.binance.org", "https://bsc-dataseed3.binance.org", "https://bsc-dataseed4.binance.org", "https://bsc-dataseed1.defibit.io", "https://bsc-dataseed2.defibit.io", "https://bsc-dataseed3.defibit.io", "https://bsc-dataseed4.defibit.io", "https://bsc-dataseed1.ninicoin.io", "https://bsc-dataseed2.ninicoin.io", "https://bsc-dataseed3.ninicoin.io", "https://bsc-dataseed4.ninicoin.io", "wss://bsc-ws-node.nariox.org"],
+  "rpc": ["https://bsc-dataseed1.binance.org", "https://rpc.tenderly.co/fork/070911eb-655f-44d3-b3ee-671e5a677cfc", "https://bsc-dataseed2.binance.org", "https://bsc-dataseed3.binance.org", "https://bsc-dataseed4.binance.org", "https://bsc-dataseed1.defibit.io", "https://bsc-dataseed2.defibit.io", "https://bsc-dataseed3.defibit.io", "https://bsc-dataseed4.defibit.io", "https://bsc-dataseed1.ninicoin.io", "https://bsc-dataseed2.ninicoin.io", "https://bsc-dataseed3.ninicoin.io", "https://bsc-dataseed4.ninicoin.io", "wss://bsc-ws-node.nariox.org"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Binance Chain Native Token",
@@ -2505,7 +2505,7 @@
     "symbol": "AETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}", "https://arb1.arbitrum.io/rpc", "wss://arb1.arbitrum.io/ws"],
+  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "https://rpc.tenderly.co/fork/a94242fc-85e6-4280-b92e-fc852cd7a165", "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}", "https://arb1.arbitrum.io/rpc", "wss://arb1.arbitrum.io/ws"],
   "faucets": [],
   "explorers": [{
     "name": "Arbiscan",
